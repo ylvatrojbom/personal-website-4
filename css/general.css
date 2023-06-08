@@ -1,0 +1,81 @@
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+}
+
+footer {
+    height: 200px; 
+    background-color: black; 
+    color: rgb(93, 93, 93); 
+    display: flex;   
+    margin-top: 80px; 
+}
+
+footer p {
+    margin: auto; 
+}
+
+.contact {
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+    margin-top: 40px; 
+}
+
+.sticky {
+    position: fixed; 
+    top: 0; 
+    width: 100%
+}
+
+.project {
+    padding: 100px; 
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .project {
+        padding: 150px; 
+        margin-bottom: 40px; 
+    }
+}
+
+.project-1 {
+    background-image: url(../images/project-1/IMG_p1.JPG);
+    background-size: cover;
+    transition-property: all; 
+    transition-duration: 2s;
+}
+
+.project-2 {
+    background-image: url(../images/project-2/IMG_p2.JPG);
+    background-size: cover;
+    transition-property: all; 
+    transition-duration: 2s;
+}
+
+.project-3 {
+    background-image: url(../images/project-3/IMG_p3.JPG);
+    background-size: cover;
+    transition-property: all; 
+    transition-duration: 2s;
+}
+
+.project-1:hover, .project-2:hover, .project-3:hover {
+    transform: scale(1.05);
+
+}
+

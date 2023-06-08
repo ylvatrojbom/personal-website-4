@@ -1,0 +1,31 @@
+
+.introduction {
+    margin-bottom: 50px; 
+}
+
+@media screen and (min-width: 768px) {
+    .introduction {
+        margin-bottom: 100px; 
+    }
+}
+
+.imagebg-p1 {
+    height: 500px; 
+    background-image: url(../images/project-1/IMG_p1.JPG);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.imagebg-p2 {
+    height: 500px; 
+    background-image: url(../images/project-2/IMG_p2.JPG);
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.imagebg-p3 {
+    height: 500px; 
+    background-image: url(../images/project-3/IMG_p3.JPG);
+    background-size: cover; 
+    background-attachment: fixed;
+}

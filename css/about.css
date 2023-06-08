@@ -1,0 +1,11 @@
+
+body {
+    background-color: black;
+}
+
+.imagebg {
+    height: 500px; 
+    background-image: url(../images/general/IMG_general.JPG);
+    background-size: cover; 
+    background-attachment: fixed;
+}

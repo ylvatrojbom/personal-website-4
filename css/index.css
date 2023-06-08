@@ -1,0 +1,62 @@
+
+.quote-home {
+    margin-top: 250px;  
+    margin-bottom: 210px;  
+}
+
+#spin {
+    color:red;
+  }
+  #spin:after {
+    content:"";
+    animation: spin 3s ease infinite;
+  }
+
+  @keyframes spin {
+    0% { content:"Graphic"; }
+    33% { content:"Web"; }
+    66% { content:"Content"; }
+    100% { content:"Graphic"; }
+  }
+
+.project {
+    padding: 100px; 
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 30px; 
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+    .project {
+        padding: 150px; 
+        margin-bottom: 40px; 
+    }
+}
+
+.project-1 {
+    background-image: url(../images/project-1/IMG_1817.JPG);
+    background-size: cover;
+    transition-property: all; 
+    transition-duration: 2s;
+}
+
+.project-2 {
+    background-image: url(../images/project-2/IMG_1809.JPG);
+    background-size: cover;
+    transition-property: all; 
+    transition-duration: 2s;
+}
+
+.project-3 {
+    background-image: url(../images/project-3/IMG_1793.JPG);
+    background-size: cover;
+    transition-property: all; 
+    transition-duration: 2s;
+}
+
+.project-1:hover, .project-2:hover, .project-3:hover {
+    transform: scale(1.05);
+
+}
+
